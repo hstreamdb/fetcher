@@ -2,6 +2,20 @@
 
 A command line tool to read all data from a given stream.
 
+## Installation
+
+- You can download the binary release suitable for your system
+
+- Or you can build from source code
+
+  ```shell
+  git clone git@github.com:hstreamdb/http-services.git
+  cd http-services
+  make all
+  ```
+
+## Usage
+
 ```go
 ./fetcher -h
 
